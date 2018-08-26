@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name mountainlandbgApp.controller:MainCtrl
+ * @name mountainlandbgApp.controller:HomeCtrl
  * @description
- * # MainCtrl
+ * # HomeCtrl
  * Controller of the mountainlandbgApp
  */
 angular.module('mountainlandbgApp')
-  .controller('MainCtrl', function () {
+  .controller('HomeCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
