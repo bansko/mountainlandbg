@@ -8,25 +8,13 @@
  * Controller of the mountainlandbgApp
  */
 angular.module('mountainlandbgApp')
-  .controller('NavCtrl', function ($scope) {
-    $scope.routes = [
-      {
-        id: "home",
-        title: "affordable mountain land in bulgaria",
-        link: "home",
-        description: ""
-      },
-      {
-        id: "about",
-        title: "affordable mountain land in bulgaria",
-        link: "how it works",
-        description: ""
-      },
-      {
-        id: "contact",
-        title: "affordable mountain land in bulgaria",
-        link: "contact",
-        description: ""
-      }
-    ];
+  .controller('NavCtrl', function ($scope, NavApi, $rootScope) {
+    NavApi.query({}, function (routes) {
+      $scope.routes = routes;
+      $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
+        $rootScope.title = $scope.routes.find(function(r) {
+          return r.id === current.$$route.controllerAs;
+        }).title;
+      });
+    });
   });
