@@ -1,0 +1,46 @@
+{
+  "utm_northing_easting": [
+    [4636000, 208129],
+    [4635968, 208132],
+    [4635970, 208145],
+    [4635931.5, 208156.5],
+    [4635912.5, 208111],
+    [4635931, 208110],
+    [4635976, 208073],
+    [4635988, 208092.5]
+  ],
+  "area": {
+    "m²": 3784
+  },
+  "type": {
+    "en": "immovable property",
+    "bg": "Поземлени имоти"
+  },
+  "province": {
+    "en": "Blagoevgrad",
+    "bg": "Благоевград"
+  },
+  "municipality": {
+    "en": "Bansko",
+    "bg": "Банско"
+  },
+  "ownership": {
+    "en": "Private community organisations",
+    "bg": "Частна обществени организации"
+  },
+  "old_number": 175017,
+  "teritory": {
+    "type": {
+      "en": "Urban",
+      "bg": "Урбанизирана"
+    },
+    "usage": {
+      "en": "For other construction",
+      "bg": "За друг вид застрояване"
+    }
+  },
+  "map_approval_order": {
+    "en": "РД-18-81/10.12.2009 of IZPALNITELEN DIREKTOR NA AGKK",
+    "bg": "РД-18-81/10.12.2009 г. на ИЗПЪЛНИТЕЛЕН ДИРЕКТОР НА АГКК"
+  }
+}

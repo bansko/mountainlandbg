@@ -10,7 +10,7 @@ angular.module('mountainlandbgApp')
   .directive('detectActiveTab', function ($location) {
     return {
       link: function postLink(scope, element, attrs) {
-        scope.$on("$routeChangeSuccess", function (event, current, previous) {
+        scope.$on('$routeChangeSuccess', function () {
           var pathLevel = attrs.detectActiveTab || 1,
               pathToCheck = $location.path().split('/')[pathLevel] || 'current $location.path does not reach this level',
               tabLink = attrs.href.split('/')[pathLevel] || 'href does not include this level';

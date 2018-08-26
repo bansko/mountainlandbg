@@ -1,0 +1,31 @@
+{
+  "id": "00001",
+  "cadastral_id": [
+    "02676.16.1481",
+    "02676.175.17",
+    "02676.175.19",
+    "02676.175.20",
+    "02676.175.21",
+    "02676.175.27",
+    "02676.175.28",
+    "02676.192.1672"
+  ],
+  "images": [
+    "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/csm_870_310047_1_2eb09647ab.jpg",
+    "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/csm_870_310047_2_30a0507d3b.jpg",
+    "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/csm_870_310047_3_a93296a809.jpg",
+    "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/csm_870_310047_4_df65989122.jpg"
+  ],
+  "documents": [
+    "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/870_308432_1.pdf"
+  ],
+  "supplier": {
+    "url": "https://izpalniteli.com/targ/308432/310519/#c310519",
+    "price": {
+      "guide": {
+        "amount": 306144,
+        "currency": "BGN"
+      }
+    }
+  }
+}
