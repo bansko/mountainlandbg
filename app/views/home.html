@@ -8,15 +8,25 @@
   </p>
   <p><a class="btn btn-lg btn-success" ng-click="jumbotron={hide:true}">Splendid!</a></p>
 </div>
-<ul>
-  <li ng-repeat="property in properties">
-    <img src="{{property.images[0].tn}}" />
-    <ul>
-      <pre>{{property | json}}</pre>
-      <li ng-repeat="cadastre in property.cadastre">
-        <pre>{{cadastre | json}}</pre>
-      </li>
-    </ul>
-  </li>
-</ul>
-<pre>{{error | json}}</pre>
+<div class="container-fluid">
+  <div class="row" ng-repeat="property in properties">
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <a href="#" ng-repeat="image in property.images">
+        <img src="{{image.tn}}" class="img-rounded" style="margin-right: 10px; margin-bottom: 10px;" />
+      </a>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <span>
+        {{property.supplier.price.guide.amount | currency : property.supplier.price.guide.currency + ' ' : 2}}
+        <sub ng-show="property.supplier.price.guide.currency === 'BGN'">Лв.</sub>
+      </span>
+      <br ng-show="property.cadastral_id.length" />
+      <span ng-show="property.cadastral_id.length">
+        Plot<span ng-show="property.cadastral_id.length > 1">s</span>:
+        <span ng-repeat="plot in property.cadastral_id">
+          <a href="#">{{plot}}</a><span ng-hide="$last">,</span>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
