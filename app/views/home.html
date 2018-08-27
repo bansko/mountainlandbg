@@ -11,16 +11,19 @@
 <div class="container-fluid">
   <div class="row" ng-repeat="property in properties">
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <a href="#" ng-repeat="image in property.images">
+      <a href="#" ng-repeat="image in property.images | limitTo: 4">
         <img src="{{image.tn}}" class="img-rounded" style="margin-right: 10px; margin-bottom: 10px;" />
       </a>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <h4>{{property.title.en}}</h4>
+      <p>{{property.description.en}}</p>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <h5>{{property.subtitle.en}}</h5>
       <p>
-        Bidding opens: <span>{{property.auction.open | date:'MMM dd, yyyy'}}</span>,
-        closes: <span>{{property.auction.open | date:'MMM dd, yyyy'}}</span>,
+        Bidding opens: <span>{{property.auction.open | date:'MMMM dd, yyyy'}}</span>,
+        closes: <span>{{property.auction.close | date:'MMMM dd, yyyy'}}</span>,
         guide price:
         <strong>
           {{property.supplier.price.guide.amount | currency : property.supplier.price.guide.currency + ' ' : 2}}
@@ -38,9 +41,6 @@
           - {{plot.area.m2}} m²<span ng-show="plot.teritory"> - {{plot.ownership.en}} - {{plot.teritory.type.en}} ({{plot.teritory.usage.en}})</span>
         </li>
       </ul>
-    </div>
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <p>{{property.description.en}}</p>
     </div>
   </div>
 </div>
