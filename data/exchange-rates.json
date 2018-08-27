@@ -1,0 +1,22 @@
+[
+    {
+        "source": "BGN",
+        "target": "EUR",
+        "rate": 0.51
+    },
+    {
+        "source": "BGN",
+        "target": "GBP",
+        "rate": 0.46
+    },
+    {
+        "source": "BGN",
+        "target": "USD",
+        "rate": 0.59
+    },
+    {
+        "source": "BGN",
+        "target": "BTC",
+        "rate": 0.000089
+    }
+]

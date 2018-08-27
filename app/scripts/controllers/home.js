@@ -8,7 +8,7 @@
  * Controller of the mountainlandbgApp
  */
 angular.module('mountainlandbgApp')
-  .controller('HomeCtrl', function ($scope, PropertyApi) {
+  .controller('HomeCtrl', function ($scope, PropertyApi, ForExApi) {
     $scope.properties = [];
     PropertyApi.query(
       {},
@@ -40,6 +40,18 @@ angular.module('mountainlandbgApp')
       },
       function(queryError) {
         $scope.error = queryError;
+      }
+    );
+    $scope.rates = {}
+    ForExApi.query(
+      {},
+      function (rates) {
+        for (var k in rates) {
+          $scope.rates[rates[k].target] = rates[k].rate;
+        }
+      },
+      function(ratesError) {
+        $scope.error = ratesError;
       }
     );
   });
