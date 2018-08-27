@@ -5,6 +5,29 @@
       "id": "02676.16.1481",
       "area": {
         "m2": 5206
+      },
+      "ownership": {
+        "en": "Municipal public"
+      },
+      "type": {
+        "en": "Immovable"
+      },
+      "teritory": {
+        "type": {
+          "en": "Agricultural",
+          "bg": "Урбанизирана"
+        },
+        "usage": {
+          "en": "forest, departmental road"
+        }
+      },
+      "province": {
+        "en": "Blagoevgrad",
+        "bg": "Благоевград"
+      },
+      "municipality": {
+        "en": "Bansko",
+        "bg": "Банско"
       }
     },
     {
@@ -23,7 +46,7 @@
         "m2": 3784
       },
       "type": {
-        "en": "immovable property",
+        "en": "Immovable",
         "bg": "Поземлени имоти"
       },
       "province": {
@@ -58,36 +81,180 @@
       "id": "02676.175.19",
       "area": {
         "m2": 2095
+      },
+      "ownership": {
+        "en": "Private"
+      },
+      "type": {
+        "en": "Immovable"
+      },
+      "teritory": {
+        "type": {
+          "en": "Agricultural",
+          "bg": "Урбанизирана"
+        },
+        "usage": {
+          "en": "10, Meadow",
+          "bg": "За друг вид застрояване"
+        }
+      },
+      "province": {
+        "en": "Blagoevgrad",
+        "bg": "Благоевград"
+      },
+      "municipality": {
+        "en": "Bansko",
+        "bg": "Банско"
       }
     },
     {
       "id": "02676.175.20",
       "area": {
         "m2": 1570
+      },
+      "ownership": {
+        "en": "Private"
+      },
+      "type": {
+        "en": "Immovable"
+      },
+      "teritory": {
+        "type": {
+          "en": "Agricultural",
+          "bg": "Урбанизирана"
+        },
+        "usage": {
+          "en": "10, Meadow",
+          "bg": "За друг вид застрояване"
+        }
+      },
+      "province": {
+        "en": "Blagoevgrad",
+        "bg": "Благоевград"
+      },
+      "municipality": {
+        "en": "Bansko",
+        "bg": "Банско"
       }
     },
     {
       "id": "02676.175.21",
       "area": {
         "m2": 127
+      },
+      "ownership": {
+        "en": "Private"
+      },
+      "type": {
+        "en": "Immovable"
+      },
+      "teritory": {
+        "type": {
+          "en": "Agricultural",
+          "bg": "Урбанизирана"
+        },
+        "usage": {
+          "en": "10, Field",
+          "bg": "За друг вид застрояване"
+        }
+      },
+      "province": {
+        "en": "Blagoevgrad",
+        "bg": "Благоевград"
+      },
+      "municipality": {
+        "en": "Bansko",
+        "bg": "Банско"
       }
     },
     {
       "id": "02676.175.27",
       "area": {
         "m2": 1429
+      },
+      "ownership": {
+        "en": "Private"
+      },
+      "type": {
+        "en": "Immovable"
+      },
+      "teritory": {
+        "type": {
+          "en": "Agricultural",
+          "bg": "Урбанизирана"
+        },
+        "usage": {
+          "en": "10, Meadow",
+          "bg": "За друг вид застрояване"
+        }
+      },
+      "province": {
+        "en": "Blagoevgrad",
+        "bg": "Благоевград"
+      },
+      "municipality": {
+        "en": "Bansko",
+        "bg": "Банско"
       }
     },
     {
       "id": "02676.175.28",
       "area": {
         "m2": 552
+      },
+      "ownership": {
+        "en": "Private"
+      },
+      "type": {
+        "en": "Immovable"
+      },
+      "teritory": {
+        "type": {
+          "en": "Agricultural",
+          "bg": "Урбанизирана"
+        },
+        "usage": {
+          "en": "10, Field",
+          "bg": "За друг вид застрояване"
+        }
+      },
+      "province": {
+        "en": "Blagoevgrad",
+        "bg": "Благоевград"
+      },
+      "municipality": {
+        "en": "Bansko",
+        "bg": "Банско"
       }
     },
     {
       "id": "02676.192.1672",
       "area": {
         "m2": 1310
+      },
+      "ownership": {
+        "en": "Municipal public"
+      },
+      "type": {
+        "en": "Immovable"
+      },
+      "teritory": {
+        "type": {
+          "en": "Agricultural",
+          "bg": "Урбанизирана"
+        },
+        "usage": {
+          "en": "8, Gully",
+          "bg": "За друг вид застрояване"
+        }
+      },
+      "province": {
+        "en": "Blagoevgrad",
+        "bg": "Благоевград"
+      },
+      "municipality": {
+        "en": "Bansko",
+        "bg": "Банско"
       }
     }
   ],
