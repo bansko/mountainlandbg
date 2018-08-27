@@ -1,0 +1,81 @@
+{
+  "id": "00002",
+  "title": {
+    "en": "Private land with consent for residential use bordering the Glazne river in Bansko"
+  },
+  "subtitle": {
+    "en": "Sale by public auction"
+  },
+  "auction": {
+    "open": "2018-08-10",
+    "close": "2018-09-10"
+  },
+  "plots": [
+    {
+      "id": "02676.159.36",
+      "area": {
+        "m2": 7340
+      },
+      "ownership": {
+        "en": "Private community organisations",
+        "bg": "Частна обществени организации"
+      },
+      "type": {
+        "en": "Immovable"
+      },
+      "teritory": {
+        "type": {
+          "en": "Urban"
+        },
+        "usage": {
+          "en": "Undeveloped property for residential use"
+        }
+      },
+      "province": {
+        "en": "Blagoevgrad",
+        "bg": "Благоевград"
+      },
+      "municipality": {
+        "en": "Bansko",
+        "bg": "Банско"
+      }
+    }
+  ],
+  "images": [
+    {
+      "tn": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00002/tn/12_309782_1.jpg",
+      "full": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00002/12_309782_1.jpg"
+    },
+    {
+      "tn": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00002/tn/12_309782_2.jpg",
+      "full": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00002/12_309782_2.jpg"
+    },
+    {
+      "tn": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00002/tn/12_309782_3.jpg",
+      "full": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00002/12_309782_3.jpg"
+    },
+    {
+      "tn": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00002/tn/csm_12_309782_4_37fd3e8a94.jpg",
+      "full": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00002/csm_12_309782_4_37fd3e8a94.jpg"
+    },
+    {
+      "tn": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00002/tn/csm_12_309782_5_57460ebfd8.jpg",
+      "full": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00002/csm_12_309782_5_57460ebfd8.jpg"
+    }
+  ],
+  "documents": [
+    "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00002/12_308167_1.pdf"
+  ],
+  "supplier": {
+    "url": "https://izpalniteli.com/targ/308432/310519/#c310519",
+    "price": {
+      "guide": {
+        "amount": 228535.20,
+        "currency": "BGN"
+      }
+    }
+  },
+  "description": {
+    "en": "This 7340 metre² (1.81 acre) property sits on the Glazne river just above the Ski Gondola and benefits from an urban designation for residential use."
+  }
+}
