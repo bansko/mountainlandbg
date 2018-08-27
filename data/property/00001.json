@@ -11,10 +11,22 @@
     "02676.192.1672"
   ],
   "images": [
-    "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/csm_870_310047_1_2eb09647ab.jpg",
-    "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/csm_870_310047_2_30a0507d3b.jpg",
-    "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/csm_870_310047_3_a93296a809.jpg",
-    "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/csm_870_310047_4_df65989122.jpg"
+    {
+      "tn": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/tn/csm_870_310047_4_df65989122.jpg",
+      "full": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/csm_870_310047_4_df65989122.jpg"
+    },
+    {
+      "tn": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/tn/csm_870_310047_1_2eb09647ab.jpg",
+      "full": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/csm_870_310047_1_2eb09647ab.jpg"
+    },
+    {
+      "tn": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/tn/csm_870_310047_2_30a0507d3b.jpg",
+      "full": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/csm_870_310047_2_30a0507d3b.jpg"
+    },
+    {
+      "tn": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/tn/csm_870_310047_3_a93296a809.jpg",
+      "full": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/csm_870_310047_3_a93296a809.jpg"
+    }
   ],
   "documents": [
     "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00001/870_308432_1.pdf"

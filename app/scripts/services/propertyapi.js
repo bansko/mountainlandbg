@@ -17,11 +17,11 @@ angular.module('mountainlandbgApp')
       },
       {
         get: {
-          url: url + 'https://raw.githubusercontent.com/bansko/mountainlandbg/master/data/property/:id.json',
+          url: url + 'https://raw.githubusercontent.com/bansko/mountainlandbg/master/data/property/:id.json' + '?' + Date.now(),
           method: 'GET'
         },
         cadastre: {
-          url: url + 'https://raw.githubusercontent.com/bansko/mountainlandbg/master/data/cadastre/:id.json',
+          url: url + 'https://raw.githubusercontent.com/bansko/mountainlandbg/master/data/cadastre/:id.json' + '?' + Date.now(),
           method: 'GET'
         },
         query: {

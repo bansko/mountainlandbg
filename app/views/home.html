@@ -8,5 +8,15 @@
   </p>
   <p><a class="btn btn-lg btn-success" ng-click="jumbotron={hide:true}">Splendid!</a></p>
 </div>
-<pre>{{properties | json}}</pre>
+<ul>
+  <li ng-repeat="property in properties">
+    <img src="{{property.images[0].tn}}" />
+    <ul>
+      <pre>{{property | json}}</pre>
+      <li ng-repeat="cadastre in property.cadastre">
+        <pre>{{cadastre | json}}</pre>
+      </li>
+    </ul>
+  </li>
+</ul>
 <pre>{{error | json}}</pre>
