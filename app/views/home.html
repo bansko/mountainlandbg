@@ -16,21 +16,20 @@
       </a>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <span>
+      <strong>
         {{property.supplier.price.guide.amount | currency : property.supplier.price.guide.currency + ' ' : 2}}
         <sub ng-show="property.supplier.price.guide.currency === 'BGN'">Лв.</sub>
-        (<span>{{property.supplier.price.guide.amount * rates.EUR | currency : 'EUR €' : 2}}</span>
-        <span ng-show="rates.GBP">/ {{property.supplier.price.guide.amount * rates.GBP | currency : 'GBP £' : 2}}</span>
-        <span ng-show="rates.USD">/ {{property.supplier.price.guide.amount * rates.USD | currency : 'USD $' : 2}}</span>
-        <span ng-show="rates.BTC">/ {{property.supplier.price.guide.amount * rates.BTC | currency : 'BTC ₿' : 2}}</span>)
-      </span>
+      </strong>
+      <br />
+      <span>{{property.supplier.price.guide.amount * rates.EUR | currency : 'EUR €' : 2}}</span>
+      <span ng-show="rates.GBP">/ {{property.supplier.price.guide.amount * rates.GBP | currency : 'GBP £' : 2}}</span>
+      <span ng-show="rates.USD">/ {{property.supplier.price.guide.amount * rates.USD | currency : 'USD $' : 2}}</span>
+      <span ng-show="rates.BTC">/ {{property.supplier.price.guide.amount * rates.BTC | currency : 'BTC ₿' : 2}}</span>
       <br ng-show="property.plots.length" />
       <ul ng-show="property.plots.length">
         <li ng-repeat="plot in property.plots">
           <a href="https://github.com/bansko/mountainlandbg/raw/master/media/property/{{property.id}}/{{plot.id}}.pdf">{{plot.id}}</a>
-          ({{plot.area.m2}} m²)
-          <br ng-show="plot.teritory" />
-          <span ng-show="plot.teritory">{{plot.ownership.en}} - {{plot.teritory.type.en}} ({{plot.teritory.usage.en}})</span>
+          - {{plot.area.m2}} m²<span ng-show="plot.teritory"> - {{plot.ownership.en}} - {{plot.teritory.type.en}} ({{plot.teritory.usage.en}})</span>
         </li>
       </ul>
     </div>

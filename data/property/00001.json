@@ -1,5 +1,15 @@
 {
   "id": "00001",
+  "title": {
+    "en": "Multiple adjacent, undeveloped plots bordering Pirin National Park in Bansko"
+  },
+  "subtitle": {
+    "en": "Sale by public auction"
+  },
+  "auction": {
+    "open": "2018-08-20",
+    "close": "2018-09-20"
+  },
   "plots": [
     {
       "id": "02676.16.1481",
