@@ -28,9 +28,7 @@
       <span ng-show="property.plots.length">
         Plot<span ng-show="property.plots.length > 1">s</span>:
         <span ng-repeat="plot in property.plots">
-          <a href="#">{{plot.id}}</a>
-          ({{plot.area.m2}} m²)
-          <span ng-hide="$last">,</span>
+          <a href="https://github.com/bansko/mountainlandbg/raw/master/media/property/{{property.id}}/{{plot.id}}.pdf">{{plot.id}} ({{plot.area.m2}} m²)</a><span ng-hide="$last">,</span>
         </span>
       </span>
     </div>
