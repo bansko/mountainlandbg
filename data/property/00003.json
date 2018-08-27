@@ -1,0 +1,71 @@
+{
+  "id": "00003",
+  "title": {
+    "en": "Private land with designation for residential use"
+  },
+  "subtitle": {
+    "en": "Sale by public auction"
+  },
+  "auction": {
+    "open": "2018-08-07",
+    "close": "2018-09-07",
+    "determination": "2018-09-10 13:45:00",
+    "where": "Blagoevgrad District Court"
+  },
+  "plots": [
+    {
+      "id": "02676.20.31",
+      "area": {
+        "m2": 2304
+      },
+      "type": {
+        "en": "Immovable",
+        "bg": "Поземлени имоти"
+      },
+      "province": {
+        "en": "Blagoevgrad",
+        "bg": "Благоевград"
+      },
+      "municipality": {
+        "en": "Bansko",
+        "bg": "Банско"
+      },
+      "ownership": {
+        "en": "Private community organisations",
+        "bg": "Частна обществени организации"
+      },
+      "old_number": 175017,
+      "teritory": {
+        "type": {
+          "en": "Urban",
+          "bg": "Урбанизирана"
+        },
+        "usage": {
+          "en": "For other construction",
+          "bg": "За друг вид застрояване"
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "tn": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00003/tn/csm_14_309082_1_0fb749204b.jpg",
+      "full": "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00003/csm_14_309082_1_0fb749204b.jpg"
+    }
+  ],
+  "documents": [
+    "https://raw.githubusercontent.com/bansko/mountainlandbg/master/media/property/00003/12_308167_1.pdf"
+  ],
+  "supplier": {
+    "url": "https://izpalniteli.com/targ/308432/310519/#c310519",
+    "price": {
+      "guide": {
+        "amount": 228535.20,
+        "currency": "BGN"
+      }
+    }
+  },
+  "description": {
+    "en": "This 2304 metre² (0.57 acre) property sits on a quiet hillside in the south of Bansko with unobstructed and beautiful views of Pirin National Park to the east. It benefits from an urban designation for residential use and has considerable frontage against a well maintained, paved road."
+  }
+}

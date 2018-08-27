@@ -8,7 +8,9 @@
   },
   "auction": {
     "open": "2018-08-20",
-    "close": "2018-09-20"
+    "close": "2018-09-20",
+    "determination": "2018-09-21 15:00:00",
+    "where": "Blagoevgrad District Court"
   },
   "plots": [
     {
@@ -81,10 +83,6 @@
           "en": "For other construction",
           "bg": "За друг вид застрояване"
         }
-      },
-      "map_approval_order": {
-        "en": "РД-18-81/10.12.2009 of IZPALNITELEN DIREKTOR NA AGKK",
-        "bg": "РД-18-81/10.12.2009 г. на ИЗПЪЛНИТЕЛЕН ДИРЕКТОР НА АГКК"
       }
     },
     {

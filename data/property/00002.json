@@ -1,14 +1,16 @@
 {
   "id": "00002",
   "title": {
-    "en": "Private land with consent for residential use bordering the Glazne river in Bansko"
+    "en": "Private land with designation for residential use bordering the Glazne river in Bansko"
   },
   "subtitle": {
     "en": "Sale by public auction"
   },
   "auction": {
     "open": "2018-08-10",
-    "close": "2018-09-10"
+    "close": "2018-09-10",
+    "determination": "2018-09-11 11:30:00",
+    "where": "Blagoevgrad District Court"
   },
   "plots": [
     {
