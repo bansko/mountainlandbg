@@ -14,28 +14,32 @@ angular.module('mountainlandbgApp')
       {},
       function (manifests) {
         for (var i in manifests) {
-          var id = manifests[i].name.replace(/\.[^/.]+$/, '');
-          PropertyApi.get(
-            { id: id },
-            function (property) {
-              property.cadastre = [];
-              $scope.properties.push(property);
-              for (var j in property.cadastral_id) {
-                PropertyApi.cadastre(
-                  { id: property.cadastral_id[j] },
-                  function (cadastre) {
-                    $scope.properties[i].cadastre.push(cadastre);
-                  },
-                  function (cadastreError) {
-                    $scope.error = cadastreError;
-                  }
-                );
+          if (manifests[i].name) {
+            var id = manifests[i].name.replace(/\.[^/.]+$/, '');
+            PropertyApi.get(
+              { id: id },
+              function (property) {
+                property.cadastre = [];
+                $scope.properties.push(property);
+                for (var j in property.cadastral_id) {
+                  PropertyApi.cadastre(
+                    { id: property.cadastral_id[j] },
+                    function (cadastre) {
+                      if ($scope.properties[i]) {
+                        $scope.properties[i].cadastre.push(cadastre);
+                      }
+                    },
+                    function (cadastreError) {
+                      $scope.error = cadastreError;
+                    }
+                  );
+                }
+              },
+              function (getError) {
+                $scope.error = getError;
               }
-            },
-            function (getError) {
-              $scope.error = getError;
-            }
-          );
+            );
+          }
         }
       },
       function(queryError) {
