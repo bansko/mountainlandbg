@@ -20,10 +20,6 @@ angular.module('mountainlandbgApp')
           url: url + 'https://raw.githubusercontent.com/bansko/mountainlandbg/master/data/property/:id.json' + '?' + Date.now(),
           method: 'GET'
         },
-        cadastre: {
-          url: url + 'https://raw.githubusercontent.com/bansko/mountainlandbg/master/data/cadastre/:id.json' + '?' + Date.now(),
-          method: 'GET'
-        },
         query: {
           url: url + 'https://api.github.com/repos/bansko/mountainlandbg/contents/data/property',
           method: 'GET',

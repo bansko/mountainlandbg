@@ -19,21 +19,7 @@ angular.module('mountainlandbgApp')
             PropertyApi.get(
               { id: id },
               function (property) {
-                property.cadastre = [];
                 $scope.properties.push(property);
-                for (var j in property.cadastral_id) {
-                  PropertyApi.cadastre(
-                    { id: property.cadastral_id[j] },
-                    function (cadastre) {
-                      if ($scope.properties[i]) {
-                        $scope.properties[i].cadastre.push(cadastre);
-                      }
-                    },
-                    function (cadastreError) {
-                      $scope.error = cadastreError;
-                    }
-                  );
-                }
               },
               function (getError) {
                 $scope.error = getError;

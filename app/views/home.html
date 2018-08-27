@@ -24,11 +24,13 @@
         <span ng-show="rates.USD">/ {{property.supplier.price.guide.amount * rates.USD | currency : 'USD $' : 2}}</span>
         <span ng-show="rates.BTC">/ {{property.supplier.price.guide.amount * rates.BTC | currency : 'BTC ₿' : 2}}</span>)
       </span>
-      <br ng-show="property.cadastral_id.length" />
-      <span ng-show="property.cadastral_id.length">
-        Plot<span ng-show="property.cadastral_id.length > 1">s</span>:
-        <span ng-repeat="plot in property.cadastral_id">
-          <a href="#">{{plot}}</a><span ng-hide="$last">,</span>
+      <br ng-show="property.plots.length" />
+      <span ng-show="property.plots.length">
+        Plot<span ng-show="property.plots.length > 1">s</span>:
+        <span ng-repeat="plot in property.plots">
+          <a href="#">{{plot.id}}</a>
+          ({{plot.area.m²}}m²)
+          <span ng-hide="$last">,</span>
         </span>
       </span>
     </div>
