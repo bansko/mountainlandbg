@@ -16,12 +16,18 @@
       </a>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <strong>
-        {{property.supplier.price.guide.amount | currency : property.supplier.price.guide.currency + ' ' : 2}}
-        <sub ng-show="property.supplier.price.guide.currency === 'BGN'">Лв.</sub>
-      </strong>
-      <br />
-      <span>{{property.supplier.price.guide.amount * rates.EUR | currency : 'EUR €' : 2}}</span>
+      <h4>{{property.title.en}}</h4>
+      <h5>{{property.subtitle.en}}</h5>
+      <p>
+        Bidding opens: <span>{{property.auction.open | date:'MMM dd, yyyy'}}</span>,
+        closes: <span>{{property.auction.open | date:'MMM dd, yyyy'}}</span>,
+        guide price:
+        <strong>
+          {{property.supplier.price.guide.amount | currency : property.supplier.price.guide.currency + ' ' : 2}}
+          <sub ng-show="property.supplier.price.guide.currency === 'BGN'">Лв.</sub>
+        </strong>        
+      </p>
+      <span ng-show="rates.EUR">{{property.supplier.price.guide.amount * rates.EUR | currency : 'EUR €' : 2}}</span>
       <span ng-show="rates.GBP">/ {{property.supplier.price.guide.amount * rates.GBP | currency : 'GBP £' : 2}}</span>
       <span ng-show="rates.USD">/ {{property.supplier.price.guide.amount * rates.USD | currency : 'USD $' : 2}}</span>
       <span ng-show="rates.BTC">/ {{property.supplier.price.guide.amount * rates.BTC | currency : 'BTC ₿' : 2}}</span>
